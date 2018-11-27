@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  songlink
+
+  Created by Максим Карелов on 13/12/2018.
+  Copyright © 2018 Maksim Karelov. All rights reserved.
+*/
+"Select target music service" = "Целевой музыкальный сервис";
+"Cancel" = "Отмена";
+"Open" = "Открыть";
+"Copy" = "Скопировать";
+"Share" = "Поделиться";
+"Back" = "Назад";
+
+"An error occured" = "Произошла ошибка";
