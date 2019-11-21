@@ -10,10 +10,10 @@ enum ACTIONS {
 
 struct ActionSheetResult {
     let action: ACTIONS
-    let provider: SLProvider
+    let provider: Provider
 }
 
-func showServicesSheet(root: UIViewController, services: [SLProvider]) -> Observable<SLProvider> {
+func showServicesSheet(root: UIViewController, services: [Provider]) -> Observable<Provider> {
     return Observable.create { observer in
         let actionSheet = UIAlertController(title: NSLocalizedString("Select target music service", comment: ""), message: nil, preferredStyle: .actionSheet)
         
@@ -38,7 +38,7 @@ func showServicesSheet(root: UIViewController, services: [SLProvider]) -> Observ
     }
 }
 
-func showActionSheet(root: UIViewController, provider: SLProvider) -> Observable<ActionSheetResult> {
+func showActionSheet(root: UIViewController, provider: Provider) -> Observable<ActionSheetResult> {
     return Observable.create { observer in
         let actionSheet = UIAlertController(title: provider.label, message: nil, preferredStyle: .actionSheet)
         
