@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.2 (2019-11-21)
+
+### Features
+
+* Now support new song.link public api ([c27bafa](https://github.com/Ty3uK/songlink-ios/commit/c27bafa))
+
 ## 1.1 (2019-03-05)
 
 ### Features
